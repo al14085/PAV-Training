@@ -1,4 +1,7 @@
 # CSS
+These items are the basic content of CSS that you should study first
+
+# Basic
 - [CSS Introduction](https://www.w3schools.com/css/css_intro.asp)
 - [CSS Syntax](https://www.w3schools.com/css/css_syntax.asp)
 - [CSS Selectors](https://www.w3schools.com/css/css_selectors.asp)
