@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>localstorage homework</title>
+        <!-- <link rel="stylesheet" href="LocalStorage_homework1.css" /> -->
+        <script src="LocalStorage_homework2.js"></script>
+    </head>
+    <body>
+        <form id="form1" name="form1">
+            <div>
+                <label for="word">Input value:</label>
+                <input id="word" type="text" name="textarea1"><br>
+            </div>
+        </form>
+        <form id="form2">
+            <div> 
+                <label>Target:</label>
+                <input type="radio" name="target" value="camel">camel case 
+                <input type="radio" name="target" value="snake">snake case<br>
+            </div>
+        </form>
+        <form id="form3">
+            <div>
+                <label>Add modifier:</label>
+                <input type="radio" name="modifier" value="public">public(default) 
+                <input type="radio" name="modifier" value="protected">protected 
+                <input type="radio" name="modifier" value="private">private <br>
+            </div>
+        </form>
+        <form id="form4">
+            <div>
+                <label>Add data type</label>
+                <input type="radio"  name="datatype" value="String">String 
+                <input type="radio"  name="datatype" value="Integer">Integer 
+                <input type="radio"  name="datatype" value="Boolean">Boolean <br>
+            </div>
+        </form>
+        <button onclick="clickBtn1()" >Run</button>
+        <p>Output: <br><span id="span1"></span></p>  
+    </body>
+</html>

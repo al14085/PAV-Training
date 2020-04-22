@@ -1,0 +1,4 @@
+.inline-block {
+    display: inline-block;        /* インラインブロック要素にする */
+    background-color:white;      /* 背景色指定 */
+}
